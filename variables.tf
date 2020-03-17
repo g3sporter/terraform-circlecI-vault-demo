@@ -23,7 +23,7 @@ variable "demo_prefix" {
 
 variable "hostname" {
   description = "VM hostname. Used for local hostname, DNS, and storage-related names."
-  default     = "Bryan-test"
+  default     = "bryan-test"
 }
 
 variable "location" {
@@ -88,12 +88,12 @@ variable "image_version" {
 
 variable "admin_username" {
   description = "Administrator user name"
-  default     = "nicolas"
+  #default     = "nicolas"
 }
 
 variable "admin_password" {
   description = "Administrator password"
-  default     = "P4sswOrd"
+  #default     = "P4sswOrd"
 }
 
 variable "servers" {
