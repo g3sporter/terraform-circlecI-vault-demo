@@ -13,7 +13,7 @@ variable "env" {
 
 variable "resource_group" {
   description = "The name of your Azure Resource Group."
-  default     = "Azure-Vault-Neh-Demo"
+  default     = "Azure-Vault-Bryan-Demo"
 }
 
 variable "demo_prefix" {
@@ -23,17 +23,17 @@ variable "demo_prefix" {
 
 variable "hostname" {
   description = "VM hostname. Used for local hostname, DNS, and storage-related names."
-  default     = "neh-test"
+  default     = "Bryan-test"
 }
 
 variable "location" {
   description = "The region where the virtual network is created."
-  default     = "francecentral"
+  default     = "eastus2"
 }
 
 variable "virtual_network_name" {
   description = "The name for your virtual network."
-  default     = "vnet-neh"
+  default     = "vnet-bryan"
 }
 
 variable "address_space" {
